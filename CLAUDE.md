@@ -6,6 +6,14 @@ Cross-cutting architectural decision records for the todo application.
 
 This project holds ADRs that span both the API and web frontend — decisions about project boundaries, API strategy, and deployment approach.
 
+## Git Workflow
+
+- All work is tracked by a GitHub Issue before starting
+- Branch from `main` using the naming convention: `<issue-number>-<short-description>` (e.g., `12-add-user-auth`)
+- Work is merged to `main` via Pull Requests — never commit directly to `main`
+- Each merge to `main` triggers CI/CD build and release
+- Kanban workflow — no sprints, continuous flow
+
 ## ADR Format
 
 All ADRs follow this structure:
