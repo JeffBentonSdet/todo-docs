@@ -1,10 +1,17 @@
-# Todo Docs
+# Todo Project
 
-Cross-cutting architectural decision records for the todo application.
+The canonical home for project-wide documentation, operational files, and cross-cutting architectural decision records for the todo application.
 
 ## Purpose
 
-This project holds ADRs that span both the API and web frontend — decisions about project boundaries, API strategy, and deployment approach.
+This repo is the source of truth for project-level concerns that span both `todo-api` and `todo-web`:
+
+- **`docs/adr/`** — Cross-cutting ADRs covering project boundaries, API strategy, and deployment approach
+- **`docs/plans/`** — Feature and milestone plans
+- **`ideas.md`** — Backlog of ideas and future improvements
+- **`status.md`** — Running project journal and status log
+- **`CONTRIBUTORS.md`** — Local development setup and tooling (uses Overmind to run all services)
+- **`Procfile`** — Overmind process definitions for running the full stack locally
 
 ## Git Workflow
 
