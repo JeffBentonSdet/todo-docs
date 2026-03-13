@@ -9,7 +9,7 @@ The todo application requires both a web frontend and a backend API. As the proj
 Team autonomy, independent release cadences, and clear ownership boundaries are important considerations for long-term maintainability. Different teams may have different tooling preferences, CI/CD pipelines, and deployment targets.
 
 ## Decision
-The project is split into separate frontend (`todo-web`) and backend (`todo-api`) projects, each representing separate team ownership. A shared `todo-docs` project houses cross-cutting architectural decisions and documentation.
+The project is split into separate frontend (`todo-web`) and backend (`todo-api`) projects, each representing separate team ownership. A shared `todo-project` repository houses cross-cutting architectural decisions and project-wide documentation.
 
 ## Alternatives Considered
 - **Monorepo with shared tooling (e.g., Turborepo, Nx):** Would simplify cross-project changes and dependency management, but introduces coupling between teams and requires agreement on shared tooling. Adds complexity for teams that want to move independently.

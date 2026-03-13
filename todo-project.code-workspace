@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../todo-api"
+		},
+		{
+			"path": "../todo-web"
+		}
+	],
+	"settings": {}
+}
