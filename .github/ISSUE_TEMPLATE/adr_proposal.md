@@ -18,7 +18,7 @@ What other options should be considered?
 ## Affected Projects
 - [ ] todo-api
 - [ ] todo-web
-- [ ] todo-docs
+- [ ] todo-project
 
 ## Additional Context
 Any references, links, or prior discussion.

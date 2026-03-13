@@ -4,7 +4,7 @@
 Accepted
 
 ## Context
-The todo application is split across three repositories (todo-docs, todo-api, todo-web) with independent deployment lifecycles. Each merge to main triggers a CI/CD pipeline that builds and releases automatically. We need a project management approach that provides cross-repo visibility, supports a continuous flow of work without fixed sprints, and integrates naturally with the GitHub-based development workflow.
+The todo application is split across three repositories (todo-project, todo-api, todo-web) with independent deployment lifecycles. Each merge to main triggers a CI/CD pipeline that builds and releases automatically. We need a project management approach that provides cross-repo visibility, supports a continuous flow of work without fixed sprints, and integrates naturally with the GitHub-based development workflow.
 
 ## Decision
 We use GitHub's native project management features with a kanban workflow:
@@ -48,7 +48,7 @@ A consistent label scheme is applied across all three repositories:
 Each repository has standardized issue templates:
 - **Bug report** — Steps to reproduce, expected vs actual behavior, environment
 - **Feature request** — User story, acceptance criteria, affected projects
-- **ADR proposal** (todo-docs only) — Problem statement, proposed decision, alternatives
+- **ADR proposal** (todo-project only) — Problem statement, proposed decision, alternatives
 
 ### What We Don't Use
 - **Milestones** — Not needed; no sprints or release groupings since every merge to main deploys automatically via CI/CD
